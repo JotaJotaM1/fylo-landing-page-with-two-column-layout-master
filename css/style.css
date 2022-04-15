@@ -54,18 +54,19 @@ h1 {
     flex-direction: column;
     padding: 20px 8%;
 }
+
 .inputOne {
     margin-top: 18px;
     padding: 15px 0;
     border-color: hsl(0, 0%, 75%);
     border-style: solid;
-    border-width:thin;
+    border-width: thin;
     border-radius: 0.3rem;
     text-align: center;
 
 }
 
-.buttonOne{
+.buttonOne {
     margin-top: 18px;
     padding: 15px 0;
     background-color: hsl(224, 93%, 58%);
@@ -73,4 +74,41 @@ h1 {
     border-style: none;
     border-radius: 0.3rem;
     font-weight: 600;
+}
+
+.formImg {
+    background-image: url("../img/bg-curve-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 50px;
+    margin-top: 100px;
+}
+
+.containerSectionTwo {
+    background-color: #f8f8fe;
+}
+
+.ilustration-2 {
+    background-image: url("../img/illustration-2.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 400px;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+    margin: 70px 7% 0;
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+}
+
+.texteTwo {
+    font-size: 15px;
+    text-align: justify;
+    padding: 20px 8%;
+    color: hsl(243, 87%, 12%);
 }
