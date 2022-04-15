@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 * {
     margin: 0;
@@ -6,31 +6,71 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-main{
-    
-}
-header{
+
+header {
     display: flex;
     justify-content: space-around;
     margin: 5% 0 30%;
 }
-.oneLogo{
-    width: 60px;
-    height: 25px;
+
+.oneLogo {
+    width: 100px;
+    height: 40px;
 }
+
 .listHeader {
     list-style: none;
     display: flex;
 }
-.liOne{
+
+.liOne {
     padding-left: 20px;
 }
-.ilustration-1{
+
+.ilustration-1 {
     background-image: url("../img/illustration-1.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    width: auto;  
+    background-position: center;
+    width: auto;
     height: 400px;
-    
-    
+}
+
+h1 {
+    text-align: center;
+    margin: 0 8%;
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+}
+
+.texteOne {
+    text-align: center;
+    padding: 20px 8%;
+    color: hsl(243, 87%, 12%);
+}
+
+.containerOneInput {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 8%;
+}
+.inputOne {
+    margin-top: 18px;
+    padding: 15px 0;
+    border-color: hsl(0, 0%, 75%);
+    border-style: solid;
+    border-width:thin;
+    border-radius: 0.3rem;
+    text-align: center;
+
+}
+
+.buttonOne{
+    margin-top: 18px;
+    padding: 15px 0;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-style: none;
+    border-radius: 0.3rem;
+    font-weight: 600;
 }
