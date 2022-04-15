@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0 30%;
+}
+.oneLogo{
+    width: 60px;
+    height: 25px;
+}
+.listHeader {
+    list-style: none;
+    display: flex;
+}
+.liOne{
+    padding-left: 20px;
+}
+.ilustration-1{
+    background-image: url("../img/illustration-1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;  
+    height: 400px;
+    
+    
+}
