@@ -52,7 +52,7 @@ h1 {
 .containerOneInput {
   display: flex;
   flex-direction: column;
-  padding: 20px 8%;
+  padding: 80px 8%;
 }
 
 .inputOne {
@@ -153,22 +153,20 @@ span {
   font-weight: bold;
 }
 .coontainerAvatar {
-    margin-top: 20px;
-    font-size: 10px;
-    display: flex;
-  }
+  margin-top: 20px;
+  font-size: 10px;
+  display: flex;
+}
 
 .avatar {
   border-radius: 100%;
   width: 40px;
   margin-right: 10px;
 }
-.backgroundSectionThree{
-    background-color: #575989;
+.backgroundSectionThree {
+  background-color: #575989;
 }
-.tittleSectThree{
-    margin:15px 0;
-    color:white ;
+.tittleSectThree {
+  margin: 15px 0;
+  color: white;
 }
-
-
